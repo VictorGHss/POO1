@@ -28,7 +28,7 @@ public class Notebook {
     }
 
     public void imprimirDados() {
-        System.out.println("===== Informações das máquinas =====");
+        System.out.println("===== Informações dos notebooks =====");
         System.out.println("Modelo: " + modelo);
         System.out.println("Marca: " + marca);
         System.out.println("Monitor: " + polegadas + " polegadas");
