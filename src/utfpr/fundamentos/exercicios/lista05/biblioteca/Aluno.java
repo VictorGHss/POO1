@@ -1,4 +1,4 @@
-package utfpr.fundamentos.exercicios.lista05;
+package utfpr.fundamentos.exercicios.lista05.biblioteca;
 
 public class Aluno {
     private String nome;
