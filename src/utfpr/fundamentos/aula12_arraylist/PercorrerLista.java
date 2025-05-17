@@ -5,9 +5,9 @@ import java.util.List;
 
 public class PercorrerLista {
     public static void main(String[] args) {
-        Pessoa p1 = new Pessoa("Marcinho vp", 52, 65.4);
-        Pessoa p2 = new Pessoa("Elias Maluco", 42, 73.9);
-        Pessoa p3 = new Pessoa("Pedrinho Matador", 61, 61.7);
+        Pessoa p1 = new Pessoa("Marcinho vp", 52, 65.4, 2);
+        Pessoa p2 = new Pessoa("Elias Maluco", 42, 73.9, 60);
+        Pessoa p3 = new Pessoa("Pedrinho Matador", 61, 61.7, 100);
 
         List<Pessoa> listaPessoasDeBem = new ArrayList<>();
 
@@ -23,6 +23,8 @@ public class PercorrerLista {
             System.out.println("Nome: " + pessoa.getNome());
             System.out.println("Idade: " + pessoa.getIdade());
             System.out.println("Peso: " + pessoa.getPeso());
+            System.out.println("Killcount: " + pessoa.getKillcount());
+            System.out.println("----------------------------");
         }
     }
 }
