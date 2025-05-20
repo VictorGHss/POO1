@@ -21,7 +21,7 @@ public class Concessionaria {
 
     public static void main(String[] args) {
         Concessionaria concessionaria = new Concessionaria("AutoRent");
-
+        
         System.out.println("=== Listando todos os veículos iniciais ===");
         concessionaria.listarVeiculos();
 
