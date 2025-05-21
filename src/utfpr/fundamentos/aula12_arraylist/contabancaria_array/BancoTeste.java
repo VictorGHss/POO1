@@ -16,5 +16,10 @@ public class BancoTeste {
 
         banco1.sacarConta(111, 200.00);
         banco1.verificarSaldo(111);
+
+        banco1.listarTodasContas();
+
+        banco1.excluirConta(777);
+        banco1.listarTodasContas();
     }
 }
