@@ -15,29 +15,37 @@ public class Loja {
     }
 
     public void adicionarProduto(int id, String nome, String marca, String modelo, int qntdEstoque, double precoUn) {
-        Produto p = new Produto(id, nome, marca, modelo, 0, 0);
+        Produto p = new Produto(id, nome, marca, modelo, qntdEstoque, precoUn);
         this.prod.add(p);
         System.out.println("Produto " + nome + " adicionado com sucesso!");
     }
 
-    public void adquirirProduto(int id, String nome, String marca, String modelo, int qntdEstoque, double precoUn) {
+    private void verificarProduto(String nome) {
         for (Produto p : this.prod) {
             if (p.getNome().equals(nome)) {
-                System.out.println("Produto " + nome + " já existe, quantidade atual:" + p.getQntdEstoque());
+                System.out.println("Produto " + nome + " encontrado!");
                 return;
             }
         }
+    }
+
+    public void adquirirProduto(int id, String nome, String marca, String modelo, int qntdEstoque, double precoUn) {
+        for (Produto p : this.prod) {
+            if (p.getNome().equals(nome) && p.getMarca().equals(marca) && p.getModelo().equals(modelo)) {
+                p.setQntdEstoque(p.getQntdEstoque() + qntdEstoque);
+                System.out.println("Produto " + nome + " já existe, quantidade atual: " + p.getQntdEstoque());
+                return;
+            }
+        }
+        Produto novo = new Produto(id, nome, marca, modelo, qntdEstoque, precoUn);
+        this.prod.add(novo);
         System.out.println("Produto " + nome + " adicionado com sucesso!");
     }
 
-    public void listarProdutos(){
+    public void listarProdutos() {
         for (Produto p : this.prod) {
-            System.out.println(p.getNome());
+            System.out.println(p.getNome() + " | Marca: " + p.getMarca() + " | Modelo: " + p.getModelo() + " | Estoque: " + p.getQntdEstoque() + " | Preço: R$ " + p.getPrecoUn());
         }
     }
-
-    public void 
-
 }
-
 
