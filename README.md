@@ -1,4 +1,4 @@
-# Projeto de Programação Orientada a Objetos 1 (POO1)
+# Orientação a Objetos 01
 
 Este repositório contém os materiais e exercícios desenvolvidos durante a disciplina de Programação Orientada a Objetos 1.
 
