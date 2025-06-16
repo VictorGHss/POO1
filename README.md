@@ -60,7 +60,6 @@ POO1/
 │           │   ├── exemplo02/
 │           │   └── exemplo03/
 │           ├── aula17_interface/               # Interfaces
-└── POO1.iml                                # Arquivo de configuração do projeto IntelliJ IDEA
 ```
 
 ## Conteúdo das Aulas
@@ -86,18 +85,6 @@ POO1/
     *   **Aula 15:** Polimorfismo (sobreposição).
     *   **Aula 16:** Classes e métodos abstratos.
     *   **Aula 17:** Interfaces.
-
-Adicionalmente, a pasta `exercicios/` dentro de algumas aulas contém listas de exercícios complementares.
-
-## Como Utilizar
-
-1.  Clone o repositório:
-    ```bash
-    git clone <URL_DO_REPOSITORIO>
-    ```
-2.  Abra o projeto em sua IDE Java de preferência (recomendado IntelliJ IDEA, pois o projeto contém o arquivo `.iml`).
-3.  Navegue pelas pastas para encontrar os exemplos e exercícios de cada aula.
-4.  Compile e execute os arquivos `.java` para ver os exemplos em funcionamento.
 
 ## Tecnologias
 
