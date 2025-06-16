@@ -10,9 +10,10 @@ O projeto está organizado em pastas, cada uma correspondendo a uma aula ou tóp
 POO1/
 ├── src/
 │   └── utfpr/
-│       └── fundamentos/
+│       └── modulo01_introducao_java/
 │           ├── aula01_introducao_output/       # Introdução à Saída de Dados e Tipos Primitivos
 │           ├── aula02_input/                   # Entrada de Dados
+│       └── modulo02_principios_poo/
 │           ├── aula03_paradigma_orientado_a_objeto/ # Conceitos Iniciais de POO, Classes e Objetos (Carro)
 │           ├── aula04_padroes_nomenclatura/    # Padrões de Nomenclatura e Exemplos (Conta, Matriz)
 │           ├── aula05_metodos/                 # Métodos em Classes (Carro)
@@ -29,6 +30,7 @@ POO1/
 │           │   └── classe_wrapper/
 │           ├── aula09_encapsulamento/          # Encapsulamento
 │           │   └── exercicio01/
+│       └── modulo03_relacionamentos_e_estruturas/
 │           ├── aula10_associacoes_de_classes/  # Associações entre Classes (Agregação, Composição, Binária)
 │           │   ├── agregacao/
 │           │   ├── associacao_binaria/
@@ -43,6 +45,7 @@ POO1/
 │           │   ├── contabancaria/
 │           │   ├── contabancaria_array/
 │           │   └── exercicios/
+│       └── modulo04_heranca_e_polimorfismo/
 │           ├── aula13_heranca/                 # Herança
 │           │   ├── exemplo1/
 │           │   └── exemplo2/
@@ -57,35 +60,34 @@ POO1/
 │           │   ├── exemplo02/
 │           │   └── exemplo03/
 │           ├── aula17_interface/               # Interfaces
-│           ├── exercicios/                     # Listas de Exercícios Gerais
-│           │   ├── lista01/
-│           │   ├── lista05/
-│           │   └── lista7/
-│           └── revisao_array/                  # Revisão de Arrays
 └── POO1.iml                                # Arquivo de configuração do projeto IntelliJ IDEA
 ```
 
 ## Conteúdo das Aulas
 
-*   **Aula 01:** Introdução, saída de dados, tipos primitivos.
-*   **Aula 02:** Entrada de dados.
-*   **Aula 03:** Paradigma Orientado a Objetos, classes e objetos.
-*   **Aula 04:** Padrões de nomenclatura.
-*   **Aula 05:** Métodos.
-*   **Aula 06:** Variáveis de classe, de instância e constantes.
-*   **Aula 07:** Construtores e sobrecarga de métodos.
-*   **Aula 08:** Classes nativas (Math, String, Wrapper).
-*   **Aula 09:** Encapsulamento.
-*   **Aula 10:** Associações entre classes (agregação, composição, associação binária).
-*   **Aula 11:** Enumerações.
-*   **Aula 12:** ArrayList.
-*   **Aula 13:** Herança.
-*   **Aula 14:** Polimorfismo (coerção e sobrecarga).
-*   **Aula 15:** Polimorfismo (sobreposição).
-*   **Aula 16:** Classes e métodos abstratos.
-*   **Aula 17:** Interfaces.
+*   **Módulo 01: Introdução ao Java**
+    *   **Aula 01:** Introdução, saída de dados, tipos primitivos.
+    *   **Aula 02:** Entrada de dados.
+*   **Módulo 02: Princípios da POO**
+    *   **Aula 03:** Paradigma Orientado a Objetos, classes e objetos.
+    *   **Aula 04:** Padrões de nomenclatura.
+    *   **Aula 05:** Métodos.
+    *   **Aula 06:** Variáveis de classe, de instância e constantes.
+    *   **Aula 07:** Construtores e sobrecarga de métodos.
+    *   **Aula 08:** Classes nativas (Math, String, Wrapper).
+    *   **Aula 09:** Encapsulamento.
+*   **Módulo 03: Relacionamentos e Estruturas de Dados**
+    *   **Aula 10:** Associações entre classes (agregação, composição, associação binária).
+    *   **Aula 11:** Enumerações.
+    *   **Aula 12:** ArrayList.
+*   **Módulo 04: Herança e Polimorfismo**
+    *   **Aula 13:** Herança.
+    *   **Aula 14:** Polimorfismo (coerção e sobrecarga).
+    *   **Aula 15:** Polimorfismo (sobreposição).
+    *   **Aula 16:** Classes e métodos abstratos.
+    *   **Aula 17:** Interfaces.
 
-Adicionalmente, a pasta `exercicios/` contém listas de exercícios complementares.
+Adicionalmente, a pasta `exercicios/` dentro de algumas aulas contém listas de exercícios complementares.
 
 ## Como Utilizar
 
@@ -102,4 +104,3 @@ Adicionalmente, a pasta `exercicios/` contém listas de exercícios complementar
 *   Java
 
 ---
-
