@@ -33,7 +33,7 @@ public class Main {
         Sessao sessaoTitanic = new Sessao(new Date(), "20:00", sala1, titanic);
         sessaoTitanic.cadastrar();
 
-        // 6. Gerar Ingressos para a Sessão
+        // 6. Gerar Ingresso para a Sessão
         double valorCheioIngresso = 30.00;
         sessaoTitanic.gerarIngressos(valorCheioIngresso);
 
@@ -41,7 +41,7 @@ public class Main {
         System.out.println(sessaoTitanic);
 
         // 7. Vender alguns ingressos
-        System.out.println("\nVendendo Ingressos:");
+        System.out.println("\nVendendo Ingresso:");
         if (!sessaoTitanic.getIngressos().isEmpty()) {
             sessaoTitanic.getIngressos().get(0).venderIngresso();
             sessaoTitanic.getIngressos().get(4).venderIngresso();

@@ -25,7 +25,7 @@ public class ContaBancaria {
 
     public void verificarSaldo(Double saldo){
         System.out.println("Verificando saldo...");
-        System.out.println("Conta: " + this.getNumConta() + " | Saldo: " + this.getSaldo() + "\n");
+        System.out.println("ContaBancaria: " + this.getNumConta() + " | Saldo: " + this.getSaldo() + "\n");
     }
 
     public void realizarDeposito(Double valor){

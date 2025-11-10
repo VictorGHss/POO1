@@ -13,7 +13,7 @@ public class Conta {
     }
 
     public void exibirInformacoes() {
-        System.out.println("Número da Conta: " + numConta);
+        System.out.println("Número da ContaBancaria: " + numConta);
         System.out.println("Nome do Titular: " + nomeTitular);
         System.out.println("Saldo: " + saldo);
     }

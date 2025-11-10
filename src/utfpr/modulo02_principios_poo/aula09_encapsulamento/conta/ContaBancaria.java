@@ -37,7 +37,7 @@ public class ContaBancaria {
     public void imprimirSaldo() {
 
         System.out.println("====================================");
-        System.out.println("Número da Conta: " + this.numeroConta);
+        System.out.println("Número da ContaBancaria: " + this.numeroConta);
         System.out.println("Nome do Titular: " + this.nomeTitular);
         System.out.println("Saldo: R$" + this.saldo);
         System.out.println("====================================");
