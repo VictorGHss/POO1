@@ -11,16 +11,37 @@ POO1/
 ├── src/
 │   └── utfpr/
 │       ├── exercicios/                         # 📝 Listas de Exercícios
+│       │   ├── exercicios_extra/               # Exercícios Extras
+│       │   │   ├── ex01/
+│       │   │   └── ex02/
+│       │   ├── lista_nochi/                    # Lista de Exercícios Nochi
+│       │   │   ├── ex1/                        # Pesquisa de Cinema
+│       │   │   └── ex2/                        # Índice de Mortalidade Infantil
 │       │   ├── lista01/                        # Exercícios Básicos de POO
 │       │   │   ├── ex01/                       # Classe Carro (Encapsulamento)
 │       │   │   ├── ex02/                       # Classe Pessoa
 │       │   │   ├── ex03/                       # [Exercício 3]
 │       │   │   └── ex04/                       # [Exercício 4]
-│       │   ├── lista02/                        # [Lista 2 - Vazia]
-│       │   ├── lista03/                        # [Lista 3 - Vazia]
-│       │   ├── lista04/                        # [Lista 4 - Vazia]
-│       │   ├── lista05/                        # [Lista 5 - Vazia]
-│       │   ├── lista06/                        # [Lista 6 - Vazia]
+│       │   ├── lista02/                        # Lista 2
+│       │   │   ├── ex01/
+│       │   │   ├── ex02/
+│       │   │   ├── ex03/
+│       │   │   ├── ex04/
+│       │   │   └── ex05/
+│       │   ├── lista03/                        # Lista 3
+│       │   │   ├── ex01/
+│       │   │   ├── ex02/
+│       │   │   ├── ex03/
+│       │   │   └── ex04/
+│       │   ├── lista04/                        # Lista 4
+│       │   │   ├── ex01/
+│       │   │   ├── ex02/
+│       │   │   ├── ex03/
+│       │   │   ├── ex04/
+│       │   │   └── ex05/
+│       │   ├── lista05/                        # Lista 5
+│       │   │   ├── ex01/
+│       │   │   └── ex02/
 │       │   └── lista07/                        # Figuras Geométricas e Herança
 │       │       ├── ex01/                       # Figuras Geométricas (Círculo, Losango, etc.)
 │       │       ├── ex04/                       # [Exercício 4]
@@ -44,6 +65,7 @@ POO1/
 │       │   │   ├── classe_string/              # Classe String
 │       │   │   └── classe_wrapper/             # Classes Wrapper
 │       │   └── aula09_encapsulamento/          # Encapsulamento
+│       │       ├── conta/
 │       │       └── exercicio01/
 │       ├── modulo03_relacionamentos_e_estruturas/ # 🔗 Relacionamentos e Estruturas
 │       │   ├── aula10_associacoes_de_classes/  # Associações entre Classes
@@ -57,6 +79,10 @@ POO1/
 │       │   │   ├── exercicio3/
 │       │   │   └── exercicio4/
 │       │   └── aula12_arraylist/               # ArrayList
+│       │       ├── Demonstracao.java
+│       │       ├── Parametrizacao.java
+│       │       ├── PercorrerLista.java
+│       │       ├── Pessoa.java
 │       │       ├── contabancaria/
 │       │       ├── contabancaria_array/
 │       │       └── exercicios/
@@ -114,7 +140,11 @@ POO1/
 
 1. **Para estudar conceitos básicos:** Comece pelo `modulo01_introducao_java`
 2. **Para entender POO:** Explore o `modulo02_principios_poo` sequencialmente
-3. **Para praticar:** Resolva os exercícios nas pastas `exercicios/lista01` e `exercicios/lista07`
+3. **Para praticar:** Resolva os exercícios nas pastas:
+   - `exercicios/lista01` a `exercicios/lista05` - Exercícios progressivos
+   - `exercicios/lista_nochi` - Exercícios de pesquisas e estatísticas
+   - `exercicios/lista07` - Figuras geométricas e herança
+   - `exercicios/exercicios_extra` - Exercícios complementares
 4. **Para tópicos avançados:** Avance para `modulo03` e `modulo04`
 
 **Universidade Tecnológica Federal do Paraná (UTFPR)**  
